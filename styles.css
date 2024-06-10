@@ -1,0 +1,54 @@
+body {
+  font-family: system-ui;
+  background: #D3D3D3;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: #FF6F61;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.quote_box {
+  background-color: Teal;
+  padding: 20px;
+  max-width: 550px;
+  margin: 50px auto;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 10px rgb(2, 95, 95);
+
+}
+
+#quote_display {
+  color: white;
+  font-size: 1.7em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#generate_quote,
+#generate_quote-ep {
+  background-color: #FF6F61;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 25px;
+  font-size: 1.1em;
+  color: white;
+  width: 250px;
+  height: 35px;
+  border-style: outset;
+  border: none;
+  cursor: pointer
+}
+
+#generate_quote:hover,
+#generate_quote-ep:hover {
+  background-color: white;
+  color: Teal;
+}
